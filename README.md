@@ -5,7 +5,7 @@
 
 
 # DB設計
-## usersテーブル
+## staffテーブル
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|

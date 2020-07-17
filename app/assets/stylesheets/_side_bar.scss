@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+.said_bar {
+  width: 50px;
+  height: 100vh;
+  background-color:  rgb(219, 119, 144);
+  .name_box {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    writing-mode: vertical-rl;
+    align-items: center;
+    padding-top: 30px;
+
+    &__staff_name {
+
+    }
+
+    &__icon {
+      padding: 10px 0 0 2px;
+      color: #fff;
+
+    }
+  }
+  .home_btn {
+    font-size: 35px;
+    padding-left: 5px;
+    color: #fff;
+  }
+  .Setting_btn {
+
+  }
+  .star_btn {
+    font-size: 35px;
+    padding-left: 5px;
+    color: gold;
+  }
+  .log_out {
+    font-size: 35px;
+    padding-left: 7px;
+    color: #fff;
+
+  }
+
+  }
+}
