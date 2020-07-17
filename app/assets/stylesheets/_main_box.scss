@@ -1,0 +1,87 @@
+.main_box {
+  width: calc(100% - 50px);
+
+  .resident_box {
+    table {
+      width: 500px;
+      margin: 60px 0 0px 200px;
+      text-align: center;
+      
+      tr {
+        margin: 100px 0 0 50px;
+        
+      }
+      td {
+        border: solid 2px black;
+        padding: 10px;
+
+      }
+      th {
+        border: solid 2px black;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+  }
+
+
+  .resident_diary {  
+    margin: 50px 0;
+    padding: 0 200px;
+    &__title { 
+      color: #fff;
+      line-height: 50px;
+      border-radius: 3px;
+      padding-left: 30px;
+      font-size: 25px;
+      background-color:  rgb(219, 119, 144);
+
+    }
+      
+    &__data {
+      display: flex;
+      background-color: #dedede;
+      &__name {
+        padding-left: 10px;
+      }
+      &__time {
+        padding-left: 20px;
+      }
+    }
+    &__content {
+      background-color: #dedede;
+      padding: 5px 0 10px 10px;
+
+    }
+  }     
+
+
+  .contact_note {
+    margin: 50px 0;
+    padding: 0 200px;
+    &__title {
+      line-height: 50px;
+      color: #fff;
+      border-radius: 3px;
+      padding-left: 30px;
+      font-size: 25px;
+      background-color:  rgb(219, 119, 144);
+
+    }
+    &__data {
+      display: flex;
+      background-color: #dedede;
+        &__writer {
+          padding-left: 10px;
+        }
+        &__time {
+          padding-left: 20px;
+        }
+    }
+    
+    &__content {
+      background-color: #dedede;
+      padding: 5px 0 10px 10px;
+    }
+  }
+}
